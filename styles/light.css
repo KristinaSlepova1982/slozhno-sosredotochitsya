@@ -14,6 +14,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+  :root {
   --theme_background_image: url("../images/cover-image-light.png");
   --theme_background: #fff1f7;
   --theme_title_background: #ff0070;
@@ -26,4 +27,5 @@
   --main_section_title_font_color: #353430;
   --button_color_hover: rgba(50, 49, 45, 0.4);
   --link_decoration_color: #ff8dcb;
+  }
 }
